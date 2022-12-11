@@ -214,7 +214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-imports@npm:^7.0.0, @babel/helper-module-imports@npm:^7.16.7, @babel/helper-module-imports@npm:^7.18.6":
+"@babel/helper-module-imports@npm:^7.16.7, @babel/helper-module-imports@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/helper-module-imports@npm:7.18.6"
   dependencies:
@@ -2239,7 +2239,7 @@ __metadata:
     "@rollup/plugin-babel": ^6.0.3
     "@types/node": ^18.11.13
     "@types/react": ^18.0.26
-    autonumeric: ^4.6.0
+    autonumeric: ~4.5.0
     babel-core: ^6.26.3
     babel-loader: ^9.1.0
     babel-plugin-external-helpers: ^6.22.0
@@ -2259,7 +2259,6 @@ __metadata:
     react-select: ^5.7.0
     react-styleguidist: ^13.0.0
     rollup: ^3.7.2
-    rollup-plugin-babel: ^4.4.0
     rollup-plugin-commonjs: ^10.1.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-peer-deps-external: ^2.2.4
@@ -2816,10 +2815,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autonumeric@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "autonumeric@npm:4.6.0"
-  checksum: d0753d96d14484842e83807ed617eed624b20a78e45c3765db24374f2d139676c523f25c10c509194c1f6f1929c4382247930d141a504d626a4361ee17d464df
+"autonumeric@npm:~4.5.0":
+  version: 4.5.13
+  resolution: "autonumeric@npm:4.5.13"
+  checksum: 16a8bda3252caca6c4d3e8ad210f407488eebcc0d372c8fdfcf74791d072d2fd61b3ee5092a98a4954c897d2de278344c38af76f187b15149a703e88ce0cc7fe
   languageName: node
   linkType: hard
 
@@ -8668,19 +8667,6 @@ __metadata:
   bin:
     rimraf: bin.js
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
-  languageName: node
-  linkType: hard
-
-"rollup-plugin-babel@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "rollup-plugin-babel@npm:4.4.0"
-  dependencies:
-    "@babel/helper-module-imports": ^7.0.0
-    rollup-pluginutils: ^2.8.1
-  peerDependencies:
-    "@babel/core": 7 || ^7.0.0-rc.2
-    rollup: ">=0.60.0 <3"
-  checksum: 5b8ed7c0a4192d7c74689074c910c1670eb07dfc875b1f4af5694a94c46bcb168ba85e2c9753030131efd6261ece7c252b9695953d0ea96d944977c6e79930d3
   languageName: node
   linkType: hard
 

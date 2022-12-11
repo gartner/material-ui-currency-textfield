@@ -1,4 +1,4 @@
-import babel from 'rollup-plugin-babel'
+import { babel } from '@rollup/plugin-babel';
 import commonjs from 'rollup-plugin-commonjs'
 import external from 'rollup-plugin-peer-deps-external'
 import resolve from 'rollup-plugin-node-resolve'
@@ -9,12 +9,14 @@ export default {
   output: [
     {
       file: 'dist/index.js',
-      format: 'cjs'
+      format: 'es'
     }
   ],
   plugins: [
+    babel({ babelHelpers: 'bundled' }),
     external(),
     url(),
+/*
     babel({
       babelrc: false,
       presets: [
@@ -24,12 +26,12 @@ export default {
         "stage-0",
         "react"
       ],
-      exclude: 'node_modules/**',
+      exclude: 'node_modules/!**',
       plugins: [ 'external-helpers' ]
     }),
     resolve(),
     commonjs({
-      include: 'node_modules/**',
+      include: 'node_modules/!**',
       namedExports: {
         'node_modules/react/index.js': [
           'cloneElement',
@@ -45,5 +47,6 @@ export default {
         ]
       }
     })
+*/
   ]
 }

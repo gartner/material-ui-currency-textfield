@@ -1,3 +1,3 @@
-import CurrencyTextField from './components/CurrencyTextField'
+import CurrencyTextField from './components/CurrencyTextField/CurrencyTextField'
 
 export default CurrencyTextField
